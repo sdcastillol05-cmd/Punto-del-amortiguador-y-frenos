@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Punto del Amortiguador y Frenos | Electricidad y Mecánica Rápida</title>
+<meta name="description" content="Mecánica automotriz, eléctrica, amortiguadores, suspensión y frenos. Trato cercano, variedad de repuestos y mecánica rápida desde 2005.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner container">
+    <a href="#inicio" class="navbar__logo">
+      <img src="rosa.png" alt="Punto del Amortiguador y Frenos" class="navbar__logo-img">
+      <span class="navbar__wordmark">
+        <span class="wordmark-outline">PUNTO DEL AMORTIGUADOR</span>
+        <span class="wordmark-solid">Y FRENOS</span>
+      </span>
+    </a>
+
+    <nav class="navbar__menu" id="navMenu">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a href="https://wa.me/573132304229?text=Hola%2C%20quiero%20más%20información" class="btn btn--primary navbar__cta" target="_blank" rel="noopener">
+      Escríbenos
+    </a>
+
+    <button class="navbar__burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/573132304229?text=Hola%2C%20quiero%20más%20información" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" class="whatsapp-float__icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.85.5 3.652 1.446 5.234L2 22l4.897-1.415A9.94 9.94 0 0012.001 22C17.523 22 22 17.522 22 12S17.523 2 12.001 2zm0 18.111a8.09 8.09 0 01-4.13-1.132l-.296-.176-3.106.898.912-3.075-.192-.31A8.087 8.087 0 013.889 12c0-4.478 3.634-8.111 8.112-8.111 4.478 0 8.111 3.633 8.111 8.111 0 4.477-3.633 8.111-8.111 8.111z"/></svg>
+</a>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+  <div class="hero__stripe" aria-hidden="true"></div>
+  <div class="container hero__grid">
+    <div class="hero__content reveal">
+      <span class="eyebrow">Taller establecido desde 2005</span>
+      <h1 class="hero__title">Tu carro no espera,<br>y aquí <span class="text-accent">tampoco</span>.</h1>
+      <p class="hero__slogan">Electricidad y mecánica rápida</p>
+      <p class="hero__subtitle">Amortiguadores, suspensión, frenos, sistema eléctrico y repuestos de todo tipo, para carro multimarca. Con el trato de siempre, el de un amigo que sabe de mecánica.</p>
+
+      <div class="hero__actions">
+        <a href="https://wa.me/573132304229?text=Hola%2C%20quiero%20más%20información" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="btn__icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.85.5 3.652 1.446 5.234L2 22l4.897-1.415A9.94 9.94 0 0012.001 22C17.523 22 22 17.522 22 12S17.523 2 12.001 2zm0 18.111a8.09 8.09 0 01-4.13-1.132l-.296-.176-3.106.898.912-3.075-.192-.31A8.087 8.087 0 013.889 12c0-4.478 3.634-8.111 8.112-8.111 4.478 0 8.111 3.633 8.111 8.111 0 4.477-3.633 8.111-8.111 8.111z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal">
+      <div class="hero__visual-frame">
+        <img src="1.png" alt="Amortiguadores y suspensión" class="hero__img hero__img--main">
+        <div class="hero__badge hero__badge--top">
+          <span class="hero__badge-num">21+</span>
+          <span class="hero__badge-label">años en el oficio</span>
+        </div>
+        <div class="hero__badge hero__badge--bottom">
+          <span class="hero__badge-dot"></span>
+          Multimarca · Todo tipo de repuestos
+        </div>
+      </div>
+      <div class="hero__thumbs">
+        <img src="2.png" alt="Frenos" class="hero__thumb">
+        <img src="3.png" alt="Sistema eléctrico" class="hero__thumb">
+        <img src="4.png" alt="Repuestos" class="hero__thumb">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="hazard-divider" aria-hidden="true"></div>
+
+<!-- ===================== NOSOTROS / INFO NEGOCIO ===================== -->
+<section class="about" id="nosotros">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Quiénes somos</span>
+      <h2 class="section-title">Un taller de confianza, no una cadena más</h2>
+      <p class="section-desc">Desde 2005 atendemos carros de todas las marcas en el barrio, con la misma seriedad del primer día: repuestos variados, diagnóstico honesto y un trato que se siente de amigos, no de mostrador.</p>
+    </div>
+
+    <div class="about__grid">
+      <div class="ticket-card reveal">
+        <div class="ticket-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        </div>
+        <h3>Más de 20 años</h3>
+        <p>Constituidos desde 2005, resolviendo mecánica automotriz rápida y diversa en la misma zona, con clientes que vuelven año tras año.</p>
+      </div>
+
+      <div class="ticket-card reveal">
+        <div class="ticket-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg>
+        </div>
+        <h3>Trato de amigos</h3>
+        <p>Aquí no eres un número de turno. Te explicamos qué tiene tu carro, qué opciones hay y por qué, sin tecnicismos innecesarios.</p>
+      </div>
+
+      <div class="ticket-card reveal">
+        <div class="ticket-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="12" rx="1.5"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+        </div>
+        <h3>Variedad de repuestos</h3>
+        <p>Amortiguadores, suspensión, frenos, eléctrico y más, para prácticamente cualquier marca y modelo que llegue al taller.</p>
+      </div>
+
+      <div class="ticket-card reveal">
+        <div class="ticket-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+        </div>
+        <h3>Mecánica rápida</h3>
+        <p>Sabemos que necesitas tu carro funcionando. Diagnosticamos y resolvemos sin vueltas ni esperas eternas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICIOS ===================== -->
+<section class="services" id="servicios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Lo que hacemos</span>
+      <h2 class="section-title">Repuestos y mecánica, todo en un solo lugar</h2>
+      <p class="section-desc">Diez frentes de trabajo que cubren lo esencial de tu carro. Si no está en la lista, seguro lo conseguimos o te orientamos bien.</p>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="1.png" alt="Amortiguadores"></div>
+        <h3>Amortiguadores</h3>
+        <p>Cambio y revisión para que tu carro no rebote ni se sienta suelto.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="2.png" alt="Pastillas y discos de freno"></div>
+        <h3>Frenos</h3>
+        <p>Pastillas, discos y sistema completo, revisado a fondo.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="3.png" alt="Suspensión completa"></div>
+        <h3>Suspensión</h3>
+        <p>Diagnóstico y arreglo de todo el sistema de suspensión.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="4.png" alt="Sistema eléctrico"></div>
+        <h3>Sistema eléctrico</h3>
+        <p>Fallas eléctricas, luces, arranque y cableado en general.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="5.png" alt="Baterías"></div>
+        <h3>Baterías</h3>
+        <p>Diagnóstico, carga y cambio de batería cuando ya no da más.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="6.png" alt="Rótulas y terminales"></div>
+        <h3>Rótulas y terminales</h3>
+        <p>Piezas de dirección que evitan ruidos y desgaste irregular.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="7.png" alt="Bandas y correas"></div>
+        <h3>Bandas y correas</h3>
+        <p>Revisión y cambio antes de que se rompan en el peor momento.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="8.png" alt="Aceites y filtros"></div>
+        <h3>Aceites y filtros</h3>
+        <p>Mantenimiento básico para alargar la vida del motor.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="9.png" alt="Repuestos multimarca"></div>
+        <h3>Repuestos multimarca</h3>
+        <p>Variedad de repuestos para distintas marcas y modelos.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__img-wrap"><img src="10.png" alt="Mano de obra especializada"></div>
+        <h3>Mano de obra</h3>
+        <p>Instalación y ajuste hecho con cuidado, no a las carreras mal hechas.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="hazard-divider" aria-hidden="true"></div>
+
+<!-- ===================== PROCESO ===================== -->
+<section class="process" id="proceso">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Cómo trabajamos</span>
+      <h2 class="section-title">Sin vueltas, así de simple</h2>
+      <p class="section-desc">Cuatro pasos, sin letra pequeña.</p>
+    </div>
+
+    <div class="process__timeline">
+      <div class="process__step reveal">
+        <div class="process__num">1</div>
+        <h3>Nos escribes</h3>
+        <p>Nos cuentas por WhatsApp qué le pasa a tu carro o qué necesitas.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__num">2</div>
+        <h3>Diagnóstico</h3>
+        <p>Revisamos el problema y te explicamos qué encontramos, sin rodeos.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__num">3</div>
+        <h3>Cotización clara</h3>
+        <p>Te decimos el costo y el tiempo antes de mover un solo tornillo.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__num">4</div>
+        <h3>Reparación rápida</h3>
+        <p>Trabajamos con calidad y sin demoras innecesarias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BENEFICIOS / RESULTADOS ===================== -->
+<section class="results">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Por qué elegirnos</span>
+      <h2 class="section-title">Lo que nos diferencia del taller de la esquina</h2>
+    </div>
+
+    <div class="results__grid">
+      <div class="result-card reveal">
+        <span class="result-card__num">21+</span>
+        <p>años atendiendo carros en el mismo barrio, con clientes que confían y vuelven.</p>
+      </div>
+      <div class="result-card reveal">
+        <span class="result-card__num">100%</span>
+        <p>multimarca: no importa qué carro tengas, lo revisamos con el mismo cuidado.</p>
+      </div>
+      <div class="result-card reveal">
+        <span class="result-card__num">1</span>
+        <p>solo mensaje de WhatsApp para empezar. Sin formularios ni vueltas.</p>
+      </div>
+      <div class="result-card reveal">
+        <span class="result-card__num">+10</span>
+        <p>frentes de trabajo: de amortiguadores a sistema eléctrico, todo en un lugar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="cta-final">
+  <div class="cta-final__stripe" aria-hidden="true"></div>
+  <div class="container cta-final__inner reveal">
+    <h2>Tu carro necesita un taller de palabra, <span class="text-accent">no de promesas</span>.</h2>
+    <p>Escríbenos ahora y te respondemos directo, sin intermediarios.</p>
+    <a href="https://wa.me/573132304229?text=Hola%2C%20quiero%20más%20información" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" class="btn__icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.85.5 3.652 1.446 5.234L2 22l4.897-1.415A9.94 9.94 0 0012.001 22C17.523 22 22 17.522 22 12S17.523 2 12.001 2zm0 18.111a8.09 8.09 0 01-4.13-1.132l-.296-.176-3.106.898.912-3.075-.192-.31A8.087 8.087 0 013.889 12c0-4.478 3.634-8.111 8.112-8.111 4.478 0 8.111 3.633 8.111 8.111 0 4.477-3.633 8.111-8.111 8.111z"/></svg>
+      Escribir por WhatsApp
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" id="contacto">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#inicio" class="navbar__logo">
+        <img src="rosa.png" alt="Punto del Amortiguador y Frenos" class="navbar__logo-img">
+        <span class="navbar__wordmark">
+          <span class="wordmark-outline">PUNTO DEL AMORTIGUADOR</span>
+          <span class="wordmark-solid">Y FRENOS</span>
+        </span>
+      </a>
+      <p class="footer__tagline">Electricidad y mecánica rápida.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Navegación</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contacto</h4>
+      <a href="https://wa.me/573132304229?text=Hola%2C%20quiero%20más%20información" target="_blank" rel="noopener">+57 313 230 4229</a>
+      <a href="mailto:puntodelamortiguador78@hotmail.com">puntodelamortiguador78@hotmail.com</a>
+      <span>Calle 78 #23-21</span>
+    </div>
+
+    <div class="footer__col">
+      <h4>Horario</h4>
+      <span>Lunes a viernes: 8:00 a.m. – 6:00 p.m.</span>
+      <span>Sábado: 8:00 a.m. – 3:00 p.m.</span>
+    </div>
+  </div>
+
+  <div class="footer__bottom container">
+    <span>© <span id="year"></span> Punto del Amortiguador y Frenos. Todos los derechos reservados.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
